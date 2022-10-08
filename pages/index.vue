@@ -44,12 +44,12 @@
       </div>
     </div>
     <div class="flex justify-center items-center">
-      <!-- <button
+      <button
         class="bg-gray-500 hover:bg-gray-400 text-white rounded px-4 py-2 my-10"
         @click="addPage"
       >
         ページを追加する
-      </button> -->
+      </button>
     </div>
   </div>
 </template>
@@ -67,10 +67,10 @@ export default {
     });
     return myPage;
   },
-  // methods: {
-  //   addPage() {
-  //     this.$axios.post(`${location.origin}/server-middleware-create`);
-  //   },
-  // },
+  methods: {
+    addPage() {
+      this.$axios.post(`${location.origin}/server-middleware-create`);
+    },
+  },
 };
 </script>

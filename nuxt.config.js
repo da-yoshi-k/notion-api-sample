@@ -49,7 +49,7 @@ export default {
   serverMiddleware: [
     {
       path: "/server-middleware-create",
-      handler: "~/serverMiddleware/create.js",
+      handler: "~/api/create.js",
     },
   ],
 };
