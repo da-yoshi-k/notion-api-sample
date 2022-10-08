@@ -47,9 +47,9 @@ export default {
   build: {},
 
   serverMiddleware: [
-    {
-      path: "/server-middleware-create",
-      handler: "~/serverMiddleware/create.js",
-    },
+    // {
+    //   path: "/server-middleware-create",
+    //   handler: "~/serverMiddleware/create.js",
+    // },
   ],
 };
